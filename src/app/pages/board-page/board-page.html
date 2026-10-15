@@ -19,11 +19,11 @@
               </p>
             </div>
 
-            <weather-widget
+            <app-weather-widget
               [latitude]="weatherLatitude"
               [longitude]="weatherLongitude"
               [label]="weatherLabel"
-            ></weather-widget>
+            ></app-weather-widget>
           </div>
         </article>
 
@@ -61,13 +61,13 @@
           </div>
 
           <div class="mt-5 flex-1 lg:min-h-0">
-            <youtube-player
+            <app-youtube-player
               [videoId]="videoId"
               [title]="videoTitle"
               [isMuted]="isMuted()"
               [fill]="true"
               className="h-full"
-            ></youtube-player>
+            ></app-youtube-player>
           </div>
         </article>
       </div>
